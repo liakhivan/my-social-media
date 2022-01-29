@@ -1,0 +1,17 @@
+.post {
+    margin: 10px 0 20px;
+    display: grid;
+    grid-template-areas:
+    "avatar content";
+    grid-template-columns: 50px 1fr;
+    grid-gap: 0.5rem;
+    
+    .content {
+        color: red;
+        grid-area: content;
+    }
+}
+
+.avatar {   
+    max-width: 50px;
+}
